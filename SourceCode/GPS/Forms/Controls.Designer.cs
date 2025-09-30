@@ -1490,6 +1490,10 @@ namespace AgOpenGPS
         {
             SetLanguage("uk");
         }
+        private void menuLanguageCzech_Click(object sender, EventArgs e)
+        {
+            SetLanguage("cz");
+        }
         private void menuLanguageSlovak_Click(object sender, EventArgs e)
         {
             SetLanguage("sk");
@@ -1545,6 +1549,7 @@ namespace AgOpenGPS
             menuLanguageFrench.Checked = false;
             menuLanguageItalian.Checked = false;
             menuLanguageUkranian.Checked = false;
+            menuLanguageCzech.Checked = false;
             menuLanguageSlovak.Checked = false;
             menuLanguagePolish.Checked = false;
             menuLanguageDanish.Checked = false;
@@ -1596,6 +1601,9 @@ namespace AgOpenGPS
 
                 case "uk":
                     menuLanguageUkranian.Checked = true;
+                    break;
+                case "cz":
+                    menuLanguageCzech.Checked = true;
                     break;
 
                 case "sk":

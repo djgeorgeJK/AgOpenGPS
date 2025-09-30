@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="gsABCurve" xml:space="preserve">
+    <value>AB křivka</value>
+  </data>
+  <data name="gsABline" xml:space="preserve">
+    <value>AB linie</value>
+  </data>
+  <data name="gsAbout" xml:space="preserve">
+    <value>O programu...</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gsAckermann" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="gsActionHasBeenCancelled" xml:space="preserve">
+    <value>Akce byla ukončena</value>
+  </data>
+  <data name="gsActual" xml:space="preserve">
+    <value>Skutečný</value>
+  </data>
+  <data name="gsAgressiveness" xml:space="preserve">
+    <value>Agresivita</value>
+  </data>
+  <data name="gsAreYouSure" xml:space="preserve">
+    <value>Jste si jistý?</value>
+  </data>
+  <data name="gsArea" xml:space="preserve">
+    <value>Plocha</value>
+  </data>
+  <data name="gsAutoSteer" xml:space="preserve">
+    <value>Autopilot</value>
+  </data>
+  <data name="gsAutoSteerConfiguration" xml:space="preserve">
+    <value>Nastavení Autopilota</value>
+  </data>
+  <data name="gsAutoSteerPort" xml:space="preserve">
+    <value>Port Autopilota</value>
+  </data>
+  <data name="gsBasedOnField" xml:space="preserve">
+    <value>Použít pole: </value>
+  </data>
+  <data name="gsBoundary" xml:space="preserve">
+    <value>Hranice</value>
+  </data>
+  <data name="gsBoundaryLineFilesAreCorrupt" xml:space="preserve">
+    <value>Soubor s hranicí je neplatný</value>
+  </data>
+  <data name="gsBoundaryMenu" xml:space="preserve">
+    <value>Obrys hranice </value>
+  </data>
+  <data name="gsButFieldIsLoaded" xml:space="preserve">
+    <value>Pole je již načtené</value>
+  </data>
+  <data name="gsCentimeters" xml:space="preserve">
+    <value>Centimetry</value>
+  </data>
+  <data name="gsCharts" xml:space="preserve">
+    <value>Graf</value>
+  </data>
+  <data name="gsChooseADifferentField" xml:space="preserve">
+    <value>Vyberte jiné pole</value>
+  </data>
+  <data name="gsChooseADifferentName" xml:space="preserve">
+    <value>Vyberte jiný název</value>
+  </data>
+  <data name="gsChooseBuildDifferentone" xml:space="preserve">
+    <value>Vyberte nebo vytvořte jiné</value>
+  </data>
+  <data name="gsClose" xml:space="preserve">
+    <value>Zavřít</value>
+  </data>
+  <data name="gsCloseFieldFirst" xml:space="preserve">
+    <value>Nejprve zavřete pole</value>
+  </data>
+  <data name="gsColors" xml:space="preserve">
+    <value>Barvy</value>
+  </data>
+  <data name="gsCompletelyDeleteBoundary" xml:space="preserve">
+    <value>Kompletně smazat hranici</value>
+  </data>
+  <data name="gsConfiguration" xml:space="preserve">
+    <value>Nastavení </value>
+  </data>
+  <data name="gsContourFileIsCorrupt" xml:space="preserve">
+    <value>Soubor s obrysem je neplatný</value>
+  </data>
+  <data name="gsContourOn" xml:space="preserve">
+    <value>Obrysy zapnuty</value>
+  </data>
+  <data name="gsCouldntGenerateValidPath" xml:space="preserve">
+    <value>Žádná platná cesta</value>
+  </data>
+  <data name="gsCreateABoundaryFirst" xml:space="preserve">
+    <value>Nejprve vytvořte hranici</value>
+  </data>
+  <data name="gsCreateNewField" xml:space="preserve">
+    <value>Vytvořit nové pole</value>
+  </data>
+  <data name="gsCurrent" xml:space="preserve">
+    <value>Proud</value>
+  </data>
+  <data name="gsCurveLineFileIsCorrupt" xml:space="preserve">
+    <value>Soubor s křivkou je neplatný</value>
+  </data>
+  <data name="gsCurveNotOn" xml:space="preserve">
+    <value>AB křivky jsou vypnuty</value>
+  </data>
+  <data name="gsDeleteAllContoursAndSections" xml:space="preserve">
+    <value>Smazat aplikovanou plochu a projeté obrysy</value>
+  </data>
+  <data name="gsDeleteAppliedArea" xml:space="preserve">
+    <value>Smazat aplikovanou plochu</value>
+  </data>
+  <data name="gsDeleteContourPaths" xml:space="preserve">
+    <value>Smazat projeté obrysy</value>
+  </data>
+  <data name="gsDeleteForSure" xml:space="preserve">
+    <value>Opravdu smazat?</value>
+  </data>
+  <data name="gsDirectories" xml:space="preserve">
+    <value>Cesta k souborům</value>
+  </data>
+  <data name="gsDirectoryExists" xml:space="preserve">
+    <value>Cesta k souborům již existuje</value>
+  </data>
+  <data name="gsDistance" xml:space="preserve">
+    <value>Vzdálenost</value>
+  </data>
+  <data name="gsDriveIn" xml:space="preserve">
+    <value>Vjeď</value>
+  </data>
+  <data name="gsDriveThru" xml:space="preserve">
+    <value>Projít skrz</value>
+  </data>
+  <data name="gsDriving" xml:space="preserve">
+    <value>Řízení</value>
+  </data>
+  <data name="gsEast" xml:space="preserve">
+    <value>Východ</value>
+  </data>
+  <data name="gsEditABCurve" xml:space="preserve">
+    <value>Upravit AB křivku</value>
+  </data>
+  <data name="gsEditABLine" xml:space="preserve">
+    <value>Upravit AB linii</value>
+  </data>
+  <data name="gsEditFieldName" xml:space="preserve">
+    <value>Uprav název pole </value>
+  </data>
+  <data name="gsEncoderCounts" xml:space="preserve">
+    <value>Počet impulsů</value>
+  </data>
+  <data name="gsEnterCoordinatesForSimulator" xml:space="preserve">
+    <value>Vložte souřadnice pro simulátor</value>
+  </data>
+  <data name="gsEnterFieldName" xml:space="preserve">
+    <value>Název pole</value>
+  </data>
+  <data name="gsEnterSimCoords" xml:space="preserve">
+    <value>Souřadnice pro simulátor</value>
+  </data>
+  <data name="gsError" xml:space="preserve">
+    <value>Chyba</value>
+  </data>
+  <data name="gsErrorreadingKML" xml:space="preserve">
+    <value>Chyba při čtení KML</value>
+  </data>
+  <data name="gsField" xml:space="preserve">
+    <value>Pole</value>
+  </data>
+  <data name="gsFieldFileIsCorrupt" xml:space="preserve">
+    <value>Soubor obsahující pole je neplatný</value>
+  </data>
+  <data name="gsFieldIsOpen" xml:space="preserve">
+    <value>Pole je otevřené</value>
+  </data>
+  <data name="gsFieldNotOpen" xml:space="preserve">
+    <value>Pole není otevřené</value>
+  </data>
+  <data name="gsFileError" xml:space="preserve">
+    <value>Chyba souboru</value>
+  </data>
+  <data name="gsFlagByLatLon" xml:space="preserve">
+    <value>Vlajka od Lat Lon</value>
+  </data>
+  <data name="gsFlagFileIsCorrupt" xml:space="preserve">
+    <value>Soubor se značkami je neplatný</value>
+  </data>
+  <data name="gsForNow" xml:space="preserve">
+    <value>Dočasně</value>
+  </data>
+  <data name="gsFromExisting" xml:space="preserve">
+    <value>Z existujícího</value>
+  </data>
+  <data name="gsFromKml" xml:space="preserve">
+    <value>Z KML</value>
+  </data>
+  <data name="gsHeadingChart" xml:space="preserve">
+    <value>Graf kurzu</value>
+  </data>
+  <data name="gsHeadland" xml:space="preserve">
+    <value>Úvrať</value>
+  </data>
+  <data name="gsHeadlandForm" xml:space="preserve">
+    <value>Vytvoření a úprava úvratí</value>
+  </data>
+  <data name="gsHelp" xml:space="preserve">
+    <value>Pomoc</value>
+  </data>
+  <data name="gsIfWrongDirectionTapVehicle" xml:space="preserve">
+    <value>Spatny směr? Klepnite na položku Vozidlo</value>
+  </data>
+  <data name="gsInches" xml:space="preserve">
+    <value>Palce</value>
+  </data>
+  <data name="gsInner" xml:space="preserve">
+    <value>Vnútorná</value>
+  </data>
+  <data name="gsKMH" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="gsLanguage" xml:space="preserve">
+    <value>Jazyk</value>
+  </data>
+  <data name="gsMPH" xml:space="preserve">
+    <value>km/h</value>
+  </data>
+  <data name="gsMachinePort" xml:space="preserve">
+    <value>Port pre stroj</value>
+  </data>
+  <data name="gsMakeBoundaryContours" xml:space="preserve">
+    <value>Kontura hranice</value>
+  </data>
+  <data name="gsManual" xml:space="preserve">
+    <value>Manualní</value>
+  </data>
+  <data name="gsMeters" xml:space="preserve">
+    <value>Metre</value>
+  </data>
+  <data name="gsMissingABLinesFile" xml:space="preserve">
+    <value>Súbor s AB Líniou nenájdený</value>
+  </data>
+  <data name="gsMissingBoundaryFile" xml:space="preserve">
+    <value>Súbor s hranicou nenájdený</value>
+  </data>
+  <data name="gsMissingContourFile" xml:space="preserve">
+    <value>Súbor s kontúrou nenájdený</value>
+  </data>
+  <data name="gsMissingFlagsFile" xml:space="preserve">
+    <value>Súbor so značkami nenájdený</value>
+  </data>
+  <data name="gsMissingSectionFile" xml:space="preserve">
+    <value>Súbor so spracovanou plochou nenájdený</value>
+  </data>
+  <data name="gsN_East" xml:space="preserve">
+    <value>Severo-Východ</value>
+  </data>
+  <data name="gsN_West" xml:space="preserve">
+    <value>Severo-Západ</value>
+  </data>
+  <data name="gsNew" xml:space="preserve">
+    <value>Novinka od štandardu</value>
+  </data>
+  <data name="gsNoABLineActive" xml:space="preserve">
+    <value>Žiadna AB línia aktívna</value>
+  </data>
+  <data name="gsNoBoundary" xml:space="preserve">
+    <value>Žiadna hranica</value>
+  </data>
+  <data name="gsNoFieldsFound" xml:space="preserve">
+    <value>Žiadne pole nenájdené</value>
+  </data>
+  <data name="gsNoGuidanceLines" xml:space="preserve">
+    <value>Žiadne navigačné línie</value>
+  </data>
+  <data name="gsNoSettingsWithIMU" xml:space="preserve">
+    <value>Žiadne nastavenia IMU</value>
+  </data>
+  <data name="gsNone" xml:space="preserve">
+    <value>Žádný</value>
+  </data>
+  <data name="gsNoneUsed" xml:space="preserve">
+    <value>Nič nepoužité</value>
+  </data>
+  <data name="gsNorth" xml:space="preserve">
+    <value>Sever</value>
+  </data>
+  <data name="gsNothingDeleted" xml:space="preserve">
+    <value>Nič nebolo nevymazané</value>
+  </data>
+  <data name="gsOffset" xml:space="preserve">
+    <value>Vzdálenost</value>
+  </data>
+  <data name="gsOffsetFix" xml:space="preserve">
+    <value>Nastavenie posunutia</value>
+  </data>
+  <data name="gsOpen" xml:space="preserve">
+    <value>Otvoriť</value>
+  </data>
+  <data name="gsOuter" xml:space="preserve">
+    <value>Vonkajšia</value>
+  </data>
+  <data name="gsOvershootReduction" xml:space="preserve">
+    <value>Redukcia prestrelení</value>
+  </data>
+  <data name="gsPass" xml:space="preserve">
+    <value>Prejazd č</value>
+  </data>
+  <data name="gsPasses" xml:space="preserve">
+    <value>Prejazdy</value>
+  </data>
+  <data name="gsPause" xml:space="preserve">
+    <value>Pauza</value>
+  </data>
+  <data name="gsPleaseEnterABLine" xml:space="preserve">
+    <value>Prosím vložte AB líniu</value>
+  </data>
+  <data name="gsPressureSensorValueLabel" xml:space="preserve">
+    <value>Tlak (bar)</value>
+  </data>
+  <data name="gsProblemMakingPath" xml:space="preserve">
+    <value>Problém pri vytváraní cesty</value>
+  </data>
+  <data name="gsProgramWillExitPleaseRestart" xml:space="preserve">
+    <value>Program bude ukončený - Prosím reštartujte!</value>
+  </data>
+  <data name="gsReallyResetEverything" xml:space="preserve">
+    <value>Naozaj všetko resetovať?</value>
+  </data>
+  <data name="gsRecord" xml:space="preserve">
+    <value>Nahrávať</value>
+  </data>
+  <data name="gsRecordedPathFileIsCorrupt" xml:space="preserve">
+    <value>Súbor s nahranou cestou je neplatný</value>
+  </data>
+  <data name="gsRecordedPathMenu" xml:space="preserve">
+    <value>Nahraná trasa</value>
+  </data>
+  <data name="gsResetAll" xml:space="preserve">
+    <value>Resetovať</value>
+  </data>
+  <data name="gsResetAllForSure" xml:space="preserve">
+    <value>Naozaj všetko resetovať?</value>
+  </data>
+  <data name="gsResume" xml:space="preserve">
+    <value>Obnoviť posledné</value>
+  </data>
+  <data name="gsS_East" xml:space="preserve">
+    <value>Východ</value>
+  </data>
+  <data name="gsS_West" xml:space="preserve">
+    <value>JuhZápad</value>
+  </data>
+  <data name="gsSaveAndReturn" xml:space="preserve">
+    <value>Uložiť a vrátiť</value>
+  </data>
+  <data name="gsSaveAs" xml:space="preserve">
+    <value>Uložiť ako</value>
+  </data>
+  <data name="gsSentToMachineModule" xml:space="preserve">
+    <value>Poslať do Modulu stroja</value>
+  </data>
+  <data name="gsSetPoint" xml:space="preserve">
+    <value>Požadovaný</value>
+  </data>
+  <data name="gsShiftGPSPosition" xml:space="preserve">
+    <value>Posun GPS pozície (cm)</value>
+  </data>
+  <data name="gsSimulatorOn" xml:space="preserve">
+    <value>Simulátor zapnutý</value>
+  </data>
+  <data name="gsSlowDownBelow" xml:space="preserve">
+    <value>Spomaľ  pod</value>
+  </data>
+  <data name="gsSmoothABCurve" xml:space="preserve">
+    <value>Vyrovnať AB krivku</value>
+  </data>
+  <data name="gsSort" xml:space="preserve">
+    <value>Triediť</value>
+  </data>
+  <data name="gsSouth" xml:space="preserve">
+    <value>Juh</value>
+  </data>
+  <data name="gsSpacing" xml:space="preserve">
+    <value>Rozostup (cm)</value>
+  </data>
+  <data name="gsStartDeleteABoundary" xml:space="preserve">
+    <value>Vytvoriť alebo vymazať hranicu</value>
+  </data>
+  <data name="gsStartNewField" xml:space="preserve">
+    <value>Začať nové pole</value>
+  </data>
+  <data name="gsSteerWizard" xml:space="preserve">
+    <value>Pomocník nastavenia</value>
+  </data>
+  <data name="gsStopRecordPauseBoundary" xml:space="preserve">
+    <value>Nahrávanie hranice</value>
+  </data>
+  <data name="gsToFile" xml:space="preserve">
+    <value>Do súboru</value>
+  </data>
+  <data name="gsTooFast" xml:space="preserve">
+    <value>Príliš rýchlo </value>
+  </data>
+  <data name="gsTopFieldView" xml:space="preserve">
+    <value>Pohľad zhora</value>
+  </data>
+  <data name="gsTramLines" xml:space="preserve">
+    <value>Koľajové riadky</value>
+  </data>
+  <data name="gsTurnABCurveOn" xml:space="preserve">
+    <value>Zapnite AB krivky</value>
+  </data>
+  <data name="gsTurnOnContourOrMakeABLine" xml:space="preserve">
+    <value>Zapnite kontúry, alebo vytvorte AB líniu</value>
+  </data>
+  <data name="gsUseSelected" xml:space="preserve">
+    <value>Použiť vybrané</value>
+  </data>
+  <data name="gsWebCam" xml:space="preserve">
+    <value>Web kamera</value>
+  </data>
+  <data name="gsWest" xml:space="preserve">
+    <value>Západ</value>
+  </data>
+  <data name="gsWizards" xml:space="preserve">
+    <value>Pomocníci</value>
+  </data>
+  <data name="gsXTEChart" xml:space="preserve">
+    <value>Graf odchýlky</value>
+  </data>
+</root>

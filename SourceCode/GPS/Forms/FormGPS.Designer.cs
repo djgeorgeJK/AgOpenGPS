@@ -39,7 +39,7 @@ namespace AgOpenGPS
             this.menustripLanguage = new System.Windows.Forms.ToolStripMenuItem();
             this.menuLanguageDanish = new System.Windows.Forms.ToolStripMenuItem();
             this.menuLanguageDeutsch = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuLanguageEnglish = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuLanguageEnglish = new System.Windows.Forms.ToolStripMenuItem();            
             this.menuLanguageSpanish = new System.Windows.Forms.ToolStripMenuItem();
             this.menuLanguageFrench = new System.Windows.Forms.ToolStripMenuItem();
             this.menuLanguageItalian = new System.Windows.Forms.ToolStripMenuItem();
@@ -52,6 +52,7 @@ namespace AgOpenGPS
             this.menuLanguagePortugese = new System.Windows.Forms.ToolStripMenuItem();
             this.menuLanguageRussian = new System.Windows.Forms.ToolStripMenuItem();
             this.menuLanguageFinnish = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuLanguageCzech = new System.Windows.Forms.ToolStripMenuItem();
             this.menuLanguageSlovak = new System.Windows.Forms.ToolStripMenuItem();
             this.menuLanguageSerbie = new System.Windows.Forms.ToolStripMenuItem();
             this.menuLanguageTurkish = new System.Windows.Forms.ToolStripMenuItem();
@@ -316,6 +317,7 @@ namespace AgOpenGPS
             this.menuLanguagePortugese,
             this.menuLanguageRussian,
             this.menuLanguageFinnish,
+            this.menuLanguageCzech,
             this.menuLanguageSlovak,
             this.menuLanguageSerbie,
             this.menuLanguageTurkish,
@@ -436,6 +438,14 @@ namespace AgOpenGPS
             this.menuLanguageFinnish.Size = new System.Drawing.Size(485, 50);
             this.menuLanguageFinnish.Text = "Suomalainen (Finland)";
             this.menuLanguageFinnish.Click += new System.EventHandler(this.menuLanguageFinnish_Click);
+            //
+            // menuLanguageCzech
+            //
+            //this.menuLanguageCzech.CheckOnClick = true;
+            this.menuLanguageCzech.Name = "menuLanguageCzech";
+            this.menuLanguageCzech.Size = new System.Drawing.Size(485, 50);
+            this.menuLanguageCzech.Text = "Cesky (Czech)";
+            this.menuLanguageCzech.Click += new System.EventHandler(this.menuLanguageCzech_Click);
             // 
             // menuLanguageSlovak
             // 
@@ -3176,6 +3186,7 @@ namespace AgOpenGPS
         private System.Windows.Forms.Button btnSection13Man;
         private System.Windows.Forms.Button btnSimSetSpeedToZero;
         private System.Windows.Forms.ToolStripMenuItem menuLanguageUkranian;
+        private System.Windows.Forms.ToolStripMenuItem menuLanguageCzech;
         private System.Windows.Forms.ToolStripMenuItem menuLanguageSlovak;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator12;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuFlagForm;
