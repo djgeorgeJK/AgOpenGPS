@@ -1,4 +1,4 @@
-namespace AgOpenGPS
+﻿namespace AgOpenGPS
 {
     partial class FormGPS
     {
@@ -444,14 +444,14 @@ namespace AgOpenGPS
             //this.menuLanguageCzech.CheckOnClick = true;
             this.menuLanguageCzech.Name = "menuLanguageCzech";
             this.menuLanguageCzech.Size = new System.Drawing.Size(485, 50);
-            this.menuLanguageCzech.Text = "Cesky (Czech)";
+            this.menuLanguageCzech.Text = "Česky (Czech)";
             this.menuLanguageCzech.Click += new System.EventHandler(this.menuLanguageCzech_Click);
             // 
             // menuLanguageSlovak
             // 
             this.menuLanguageSlovak.Name = "menuLanguageSlovak";
             this.menuLanguageSlovak.Size = new System.Drawing.Size(485, 50);
-            this.menuLanguageSlovak.Text = "Slovenčina (Slovakia)";
+            this.menuLanguageSlovak.Text = "Slovenština (Slovakia)";
             this.menuLanguageSlovak.Click += new System.EventHandler(this.menuLanguageSlovak_Click);
             // 
             // menuLanguageSerbie

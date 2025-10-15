@@ -133,10 +133,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>gStr.ru.resx</DependentUpon>
     </Compile>
-    <Compile Update="Culture\gStr.cz.Designer.cs">      
+    <Compile Update="Culture\gStr.cs.Designer.cs">      
 	  <DesignTime>True</DesignTime>
 	  <AutoGen>True</AutoGen>
-      <DependentUpon>gStr.cz.resx</DependentUpon>
+      <DependentUpon>gStr.cs.resx</DependentUpon>
     </Compile>
     <Compile Update="Culture\gStr.sk.Designer.cs">
       <DesignTime>True</DesignTime>
@@ -271,9 +271,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>gStr.ru.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-	<EmbeddedResource Update="Culture\gStr.cz.resx">
+	<EmbeddedResource Update="Culture/gStr.cs.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-	  <LastGenOutput>gStr.cz.Designer.cs</LastGenOutput>
+	  <LastGenOutput>gStr.cs.Designer.cs</LastGenOutput>
 	</EmbeddedResource>
     <EmbeddedResource Update="Culture/gStr.sk.resx">
       <Generator>ResXFileCodeGenerator</Generator>
