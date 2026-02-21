@@ -1122,7 +1122,7 @@ POUŽÍVÁNÍ NA VLASTNÍCH RISK.</value>
     <value>Kolejové řádky</value>
   </data>
   <data name="gsTramWidth" xml:space="preserve">
-    <value>Šířka kolejáků</value>
+    <value>Rozteč kolejáků</value>
   </data>
   <data name="gsTurnABCurveOn" xml:space="preserve">
     <value>Zapni AB křivku</value>
