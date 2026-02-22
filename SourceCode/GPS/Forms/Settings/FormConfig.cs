@@ -237,6 +237,7 @@ namespace AgOpenGPS
             labelFieldTextureOnOff.Text = gStr.gsFieldTexture;
             labelLineSmoothOnOff.Text = gStr.gsLineSmooth;
             labelSpeedoOnOff.Text = gStr.gsSpeedo;
+            lblHeadlandDist.Text = gStr.gsHeadlandDist;
             labelSvenArrowOnOff.Text = gStr.gsSvennArrow;
             labelGridOnOff.Text = gStr.gsGrid;
             labelDirectionMarkOnOff.Text = gStr.gsDirectionMarkers;

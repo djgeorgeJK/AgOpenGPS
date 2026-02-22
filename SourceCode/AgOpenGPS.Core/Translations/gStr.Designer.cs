@@ -1368,6 +1368,15 @@ namespace AgOpenGPS.Core.Translations {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Headland Dist.
+        /// </summary>
+        public static string gsHeadlandDist {
+            get {
+                return ResourceManager.GetString("gsHeadlandDist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Create and Edit Headland.
         /// </summary>
         public static string gsHeadlandForm {

@@ -1046,6 +1046,9 @@ The order you push them will be the order they appear on the menu from bottom up
   <data name="gsSpeedo" xml:space="preserve">
     <value>Speedo</value>
   </data>
+  <data name="gsHeadlandDist" xml:space="preserve">
+    <value>Headland Dist</value>
+  </data>
   <data name="gsStart" xml:space="preserve">
     <value>Start</value>
   </data>
