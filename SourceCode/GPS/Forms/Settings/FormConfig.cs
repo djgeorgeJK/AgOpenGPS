@@ -187,6 +187,7 @@ namespace AgOpenGPS
             //uturnconfig
             labelUturnExtend.Text = gStr.gsUturnExtension;
             labelUturnSmooth.Text = gStr.gsUturnSmooth;
+            labelUturnDistance.Text = gStr.gsUturnDistance;
             labelSendandSave.Text = gStr.gsSendAndSave;
             //hydraulicliftconfig
             labelGroupHyd.Text = gStr.gsHydraulicLiftConfig;

@@ -1163,10 +1163,13 @@ POUŽÍVEJTE NA VLASTNÍ NEBEZPEČÍ.</value>
     <value>Kompenzace U-Turn</value>
   </data>
   <data name="gsUturnExtension" xml:space="preserve">
-    <value>Nastav délku prodloužení do 2 nebo 3x Radius</value>
+    <value>Nastav prodloužení na 2 - 3x Radius</value>
   </data>
   <data name="gsUturnSmooth" xml:space="preserve">
     <value>Nastav plynulost 3-4x Radius</value>
+  </data>
+  <data name="gsUturnDistance" xml:space="preserve">
+    <value>Vzdálenost k hranici (polovina záběru stroje)</value>
   </data>
   <data name="gsVehiclegroupbox" xml:space="preserve">
     <value>Typ vozidla</value>

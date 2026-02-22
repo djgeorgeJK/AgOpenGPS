@@ -3265,6 +3265,15 @@ namespace AgOpenGPS.Core.Translations {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Edge distance (half machine width)..
+        /// </summary>
+        public static string gsUturnDistance {
+            get {
+                return ResourceManager.GetString("gsUturnDistance", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Set extension length to 2 or 3x Radius.
         /// </summary>
         public static string gsUturnExtension {

@@ -1197,6 +1197,9 @@ USE AT OWN RISK.</value>
   <data name="gsUturnSmooth" xml:space="preserve">
     <value>Set Smoothing 3-4x Radius</value>
   </data>
+  <data name="gsUturnDistance" xml:space="preserve">
+    <value>Edge distance (half machine width).</value>
+  </data>
   <data name="gsVehiclegroupbox" xml:space="preserve">
     <value>Vehicle Type:</value>
   </data>

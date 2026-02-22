@@ -305,6 +305,7 @@ namespace AgOpenGPS
             this.lblWhenTrig = new System.Windows.Forms.Label();
             this.btnDistanceUp = new AgLibrary.Controls.RepeatButton();
             this.btnDistanceDn = new AgLibrary.Controls.RepeatButton();
+            this.labelUturnDistance = new System.Windows.Forms.Label();
             this.tabRelay = new System.Windows.Forms.TabPage();
             this.cboxPin23 = new System.Windows.Forms.ComboBox();
             this.cboxPin22 = new System.Windows.Forms.ComboBox();
@@ -5051,6 +5052,7 @@ namespace AgOpenGPS
             this.tabUTurn.Controls.Add(this.lblWhenTrig);
             this.tabUTurn.Controls.Add(this.btnDistanceUp);
             this.tabUTurn.Controls.Add(this.btnDistanceDn);
+            this.tabUTurn.Controls.Add(this.labelUturnDistance);
             this.tabUTurn.Location = new System.Drawing.Point(4, 44);
             this.tabUTurn.Name = "tabUTurn";
             this.tabUTurn.Size = new System.Drawing.Size(859, 584);
@@ -5298,6 +5300,17 @@ namespace AgOpenGPS
             this.btnDistanceDn.TabIndex = 456;
             this.btnDistanceDn.UseVisualStyleBackColor = true;
             this.btnDistanceDn.Click += new System.EventHandler(this.btnDistanceDn_Click);
+            // 
+            // labelUturnDistance
+            // 
+            this.labelUturnDistance.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelUturnDistance.ForeColor = System.Drawing.Color.Black;
+            this.labelUturnDistance.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.labelUturnDistance.Location = new System.Drawing.Point(529, 251);
+            this.labelUturnDistance.Name = "labelUturnDistance";
+            this.labelUturnDistance.Size = new System.Drawing.Size(272, 63);
+            this.labelUturnDistance.TabIndex = 475;
+            this.labelUturnDistance.Text = "Edge distance (half machine width).";
             // 
             // tabRelay
             // 
@@ -9231,5 +9244,6 @@ namespace AgOpenGPS
         private System.Windows.Forms.CheckBox chkboxHeadlandDist;
         private Forms.Config.ConfigSummaryControl configSummaryControl;
         private Forms.Config.ConfigVehicleControl configVehicleControl;
+        private System.Windows.Forms.Label labelUturnDistance;
     }
 }
