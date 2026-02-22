@@ -1079,17 +1079,19 @@ Objednávku, kterou je tlačíte, bude objednávka, která se objeví v menu od 
   <data name="gsSwitchDescription" xml:space="preserve">
     <value>Sepnuto Zap., Uvolněno Vyp</value>
   </data>
-  <data name="gsTerms" xml:space="preserve">
-    <value>AgOpenGPS je přísně vzdělávací software, který se dozví o vedení systémů, GPS cvičení a teoretické aplikaci řízení stroje.
-
-Není to žádný způsob, jak používat na skutečném zařízení v jakékoliv okolnostech. Simulátor je určen k tomu, aby student mohl bezpečně zažít vedení stroje.
-
-V softwaru nejsou k dispozici žádné bezpečnostní systémy.
-
-POUŽÍVÁNÍ NA VLASTNÍCH RISK.</value>
+  <data name="gsTermsOne" xml:space="preserve">
+    <value>  Pokud distribuujete kopie tohoto BEZPLATNÉHO programu, ať už zdarma nebo za poplatek, vylepšené nebo upravené, musíte příjemcům poskytnout stejné svobody, které vám byly uděleny na základě licence GPLv3.</value>
+  </data>
+  <data name="gsTermsTwo" xml:space="preserve">
+    <value>Musíte zajistit, aby obdrželi nebo mohli získat zdrojový kód. A musíte jim ukázat tyto podmínky, aby znali svá práva. Nekraďte práci jiných lidí a nevydávejte ji za svou vlastní.</value>
+  </data>
+  <data name="gsTermsThree" xml:space="preserve">
+    <value>AgOpenGPS je vzdělávací software pro výuku řídicích systémů, GPS souřadnic a teoretických aplikací řízení strojů.
+Použití sytému na skutečných zařízení je na vlastní zodpovědnost. Software neobsahuje žádné vestavěné ani implicitní bezpečnostní systémy.
+POUŽÍVEJTE NA VLASTNÍ NEBEZPEČÍ.</value>
   </data>
   <data name="gsTermsConditions" xml:space="preserve">
-    <value>Podmínky</value>
+    <value>Podmínky použití pro tuto verzi:</value>
   </data>
   <data name="gsToFile" xml:space="preserve">
     <value>Do souboru</value>
