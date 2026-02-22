@@ -1557,6 +1557,15 @@ namespace AgOpenGPS.Core.Translations {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Kiosk Mode.
+        /// </summary>
+        public static string gsKioskMode {
+            get {
+                return ResourceManager.GetString("gsKioskMode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to kmh.
         /// </summary>
         public static string gsKMH {

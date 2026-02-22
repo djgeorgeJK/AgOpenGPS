@@ -180,7 +180,7 @@
 Objednávku, kterou je tlačíte, bude objednávka, která se objeví v menu od dolní části.</value>
   </data>
   <data name="gsAttachmentStyle" xml:space="preserve">
-    <value>Spojovací styl</value>
+    <value>Druh připojeného stroje</value>
   </data>
   <data name="gsAuto" xml:space="preserve">
     <value>Auto</value>
@@ -567,10 +567,10 @@ Objednávku, kterou je tlačíte, bude objednávka, která se objeví v menu od 
     <value>Hydraulické zvedání</value>
   </data>
   <data name="gsHydraulicLiftConfig" xml:space="preserve">
-    <value>Hydraulický výtah Config</value>
+    <value>Nastavení hydraulického zvedání</value>    
   </data>
   <data name="gsHydraulicLiftLookAhead" xml:space="preserve">
-    <value>Koukni dozadu</value>
+    <value>Prodleva hydrauliky [s]</value>
   </data>
   <data name="gsIMUAxis" xml:space="preserve">
     <value>Obrať IMU osu</value>
@@ -654,7 +654,7 @@ Objednávku, kterou je tlačíte, bude objednávka, která se objeví v menu od 
     <value>Nastavení času předvídání</value>
   </data>
   <data name="gsLowerTime" xml:space="preserve">
-    <value>Dolní Čas</value>
+    <value>Čas Spuštění</value>
   </data>
   <data name="gsMPH" xml:space="preserve">
     <value>mph</value>
@@ -789,7 +789,7 @@ Objednávku, kterou je tlačíte, bude objednávka, která se objeví v menu od 
     <value>Překryv</value>
   </data>
   <data name="gsOverride" xml:space="preserve">
-    <value>Přepsat</value>
+    <value>Mód</value>
   </data>
   <data name="gsOvershootReduction" xml:space="preserve">
     <value>Přesné snížení</value>
@@ -858,7 +858,7 @@ Objednávku, kterou je tlačíte, bude objednávka, která se objeví v menu od 
     <value>Rychlý AB line tvůrce</value>
   </data>
   <data name="gsRaiseTime" xml:space="preserve">
-    <value>Zvyš čas</value>
+    <value>Čas zvednutí</value>
   </data>
   <data name="gsRate" xml:space="preserve">
     <value>Hodnotit</value>
@@ -994,6 +994,9 @@ Objednávku, kterou je tlačíte, bude objednávka, která se objeví v menu od 
   </data>
   <data name="gsSimulatorOn" xml:space="preserve">
     <value>Simulátor Zap</value>
+  </data>
+  <data name="gsKioskMode" xml:space="preserve">
+    <value>Připnnutí Aplikace</value>
   </data>
   <data name="gsSingleAntennaSetting" xml:space="preserve">
     <value>Nastavení Jedna Anténa</value>

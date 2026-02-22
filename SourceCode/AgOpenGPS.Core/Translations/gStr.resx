@@ -1010,6 +1010,9 @@ The order you push them will be the order they appear on the menu from bottom up
   <data name="gsSimulatorOn" xml:space="preserve">
     <value>Simulator On</value>
   </data>
+  <data name="gsKioskMode" xml:space="preserve">
+    <value>Kiosk Mode</value>
+  </data>	
   <data name="gsSingleAntennaSetting" xml:space="preserve">
     <value>Single Antenna Settings</value>
   </data>

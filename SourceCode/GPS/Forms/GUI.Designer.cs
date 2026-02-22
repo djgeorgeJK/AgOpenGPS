@@ -377,6 +377,7 @@ namespace AgOpenGPS
 
             simulatorOnToolStripMenuItem.Text = gStr.gsSimulatorOn;
             resetALLToolStripMenuItem.Text = gStr.gsResetAll;
+            this.kioskModeToolStrip.Text = gStr.gsKioskMode;
 
             toolStripColors.Text = gStr.gsColors;
             toolStripSectionColors.Text = "Section " + gStr.gsColors;
