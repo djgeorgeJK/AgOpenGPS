@@ -44,7 +44,7 @@ namespace AgOpenGPS.Forms.Config
             lblNudgeDistance.Text = snapDist + mf.unitsInCm.ToString();
             lblUnits.Text = mf.isMetric ? "Metric" : "Imperial";
 
-            lblSummaryVehicleName.Text = gStr.gsCurrent + ": " + RegistrySettings.vehicleFileName;
+            lblSummaryVehicleName.Text = gStr.gsCurrent + " " + gStr.gsProfile + ": " + RegistrySettings.vehicleFileName;
 
             lblTramWidth.Text = mf.isMetric ?
                 ((Properties.Settings.Default.setTram_tramWidth).ToString() + " m") :

@@ -2286,6 +2286,33 @@ namespace AgOpenGPS.Core.Translations {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Profile.
+        /// </summary>
+        public static string gsProfile {
+            get {
+                return ResourceManager.GetString("gsProfile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nový profil.
+        /// </summary>
+        public static string gsProfileNew {
+            get {
+                return ResourceManager.GetString("gsProfileNew", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Otevřít profil.
+        /// </summary>
+        public static string gsProfileOpen {
+            get {
+                return ResourceManager.GetString("gsProfileOpen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Program Will Exit Please Restart.
         /// </summary>
         public static string gsProgramWillExitPleaseRestart {

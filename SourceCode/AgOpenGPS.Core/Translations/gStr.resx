@@ -1254,4 +1254,13 @@ USE AT OWN RISK.</value>
   <data name="v_AboutIntro" xml:space="preserve">
     <value>https://www.youtube.com/watch?v=iN2cZ8avHag</value>
   </data>
+  <data name="gsProfile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="gsProfileNew" xml:space="preserve">
+    <value>Nový profil</value>
+   </data>
+  <data name="gsProfileOpen" xml:space="preserve">
+    <value>Otevřít profil</value>
+  </data>
 </root>

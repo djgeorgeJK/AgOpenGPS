@@ -59,7 +59,7 @@ namespace AgOpenGPS
         private void UpdateSummary()
         {
             configSummaryControl.UpdateSummary(mf);
-            labelCurrentVehicle.Text = gStr.gsCurrent + ": " + RegistrySettings.vehicleFileName;
+            labelCurrentVehicle.Text = gStr.gsProfile + ": " + RegistrySettings.vehicleFileName;
         }
 
         #region No Sub menu Buttons

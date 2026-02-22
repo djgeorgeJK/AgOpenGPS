@@ -1280,4 +1280,13 @@ je vytvářet/načítat v hlavním menu (vlevo nahoře).</value>
   <data name="gsName" xml:space="preserve">
     <value>Jméno</value>
   </data>
+  <data name="gsProfile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="gsProfileNew" xml:space="preserve">
+    <value>Nový profil</value>
+  </data>
+  <data name="gsProfileOpen" xml:space="preserve">
+    <value>Otevřít profil</value>
+  </data>
 </root>

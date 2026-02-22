@@ -376,6 +376,11 @@ namespace AgOpenGPS
             menustripLanguage.Text = gStr.gsLanguage;
 
             simulatorOnToolStripMenuItem.Text = gStr.gsSimulatorOn;
+
+            profileToolStripMenuItem.Text = gStr.gsProfile;
+            loadProfileToolStripMenuItem.Text = gStr.gsProfileOpen;
+            newProfileToolStripMenuItem.Text = gStr.gsProfileNew;
+
             resetALLToolStripMenuItem.Text = gStr.gsResetAll;
             this.kioskModeToolStrip.Text = gStr.gsKioskMode;
 
