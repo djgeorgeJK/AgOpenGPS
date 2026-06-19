@@ -111,9 +111,9 @@ namespace AgOpenGPS
         //cycle thru states - Off,Auto,On
         private btnStates GetNextState(btnStates state)
         {
-            if (state == btnStates.Off) return btnStates.Auto;
-            else if (state == btnStates.Auto) return btnStates.On;
-            else if (state == btnStates.On) return btnStates.Off;
+            if (state == btnStates.Off) return btnStates.On;
+            else if (state == btnStates.Auto) return btnStates.Off;
+            else if (state == btnStates.On) return btnStates.Auto;
             return btnStates.Off;
         }
 
@@ -571,7 +571,7 @@ namespace AgOpenGPS
             {
                 if (mc.ss[mc.swOnGr0] != 0)
                 {
-                    // ON Signal from Arduino 
+                    // ON Signal from Arduino
                     for (int i = 0; i < 8; i++)
                     {
                         if (((mc.ss[mc.swOnGr0] & (1 << i)) == (1 << i)) && (tool.numOfSections > i))
@@ -585,7 +585,7 @@ namespace AgOpenGPS
                     }
                     mc.ssP[mc.swOnGr0] = mc.ss[mc.swOnGr0];
 
-                } //if swONLo != 0 
+                } //if swONLo != 0
                 else
                 {
                     if (mc.ssP[mc.swOnGr0] != 0)
@@ -597,7 +597,7 @@ namespace AgOpenGPS
 
                 if (mc.ss[mc.swOnGr1] != 0)
                 {
-                    // sections ON signal from Arduino  
+                    // sections ON signal from Arduino
                     for (int i = 0; i < 8; i++)
                     {
                         if (((mc.ss[mc.swOnGr1] & (1 << i)) == (1 << i)) && (tool.numOfSections > i + 8))
@@ -611,7 +611,7 @@ namespace AgOpenGPS
                     }
                     mc.ssP[mc.swOnGr1] = mc.ss[mc.swOnGr1];
 
-                } //if swONHi != 0   
+                } //if swONHi != 0
                 else
                 {
                     if (mc.ssP[mc.swOnGr1] != 0)
@@ -811,7 +811,7 @@ namespace AgOpenGPS
                     // OFF Signal from Arduino Gr0
                     for (int i = 0; i < 8; i++)
                     {
-                        if ((section[i].sectionBtnState != btnStates.Off) && ((mc.ss[mc.swOffGr0] & (1 << i)) == (1 << i)) && (tool.numOfSections > i))  // !check mc.ss[tool.numOfSections] => to be on the save side by switching eveything off 
+                        if ((section[i].sectionBtnState != btnStates.Off) && ((mc.ss[mc.swOffGr0] & (1 << i)) == (1 << i)) && (tool.numOfSections > i))  // !check mc.ss[tool.numOfSections] => to be on the save side by switching eveything off
                         {
                             section[i].sectionBtnState = btnStates.On;
                             PerformSectionClick(i);
