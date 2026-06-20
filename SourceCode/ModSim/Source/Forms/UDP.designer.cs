@@ -25,7 +25,7 @@ namespace ModSim
         // Data stream
         private byte[] buffer = new byte[1024];
 
-        //used to send communication check pgn= C8 or 200
+        //used to send communication check pgn= C8 or 200 - It is request
         private byte[] helloFromAgIO = { 0x80, 0x81, 0x7F, 200, 3, 56, 0, 0, 0x47 };
 
         public IPAddress ipCurrent;
@@ -170,7 +170,8 @@ namespace ModSim
         //short helloSteerPosition = 0;
 
         //hello from AgIO
-        static byte[] helloFromMachine = { 128, 129, 123, 123, 5, 0, 0, 0, 0, 0, 71 };
+        //static byte[] helloFromMachine = { 128, 129, 123, 123, 5, 0, 0, 0, 0, 0, 71 };
+        static byte[] helloFromMachine = { 0x80, 0x81, 0x7B, 0x7B, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x47 };
 
         //hello from AgIO
         static byte[] helloFromIMU = { 128, 129, 121, 121, 5, 0, 0, 0, 0, 0, 71 };

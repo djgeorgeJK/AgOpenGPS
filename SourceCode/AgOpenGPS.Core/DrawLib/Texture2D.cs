@@ -91,7 +91,7 @@ namespace AgOpenGPS.Core.DrawLib
         {
             if (0 != _textureId)
             {
-                GL.DeleteTexture(_textureId);
+                //GL.DeleteTexture(_textureId);
             }
             _textureId = 0;
         }

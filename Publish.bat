@@ -7,4 +7,4 @@ rem dotnet publish --no-restore --configuration Release --runtime win-x64 Source
 
 dotnet build --no-restore SourceCode/AgOpenGPS.sln
 
-dotnet publish --no-restore --configuration Release SourceCode/AgOpenGPS.sln --property:Version="6.8.0.30"
+dotnet publish --no-restore --configuration Release SourceCode/AgOpenGPS.sln --property:Version="6.8.0.31"
