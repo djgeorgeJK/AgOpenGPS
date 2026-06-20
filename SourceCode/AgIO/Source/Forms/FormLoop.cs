@@ -348,6 +348,9 @@ namespace AgIO
             {
                 lblCurentLon.Text = longitude.ToString("N7");
                 lblCurrentLat.Text = latitude.ToString("N7");
+                lblFromINOx.Text = "Hd:" + imuHeadingData;
+                lblFromINOy.Text = "Pi:" + imuPitchData;
+                lblFromINOz.Text = "Rl:" + imuRollData;
             }
 
             //do all the NTRIP routines

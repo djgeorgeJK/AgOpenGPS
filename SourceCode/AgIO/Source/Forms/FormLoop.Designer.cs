@@ -106,6 +106,9 @@ namespace AgIO
             this.btnRunAOG = new System.Windows.Forms.Button();
             this.btnUDP = new System.Windows.Forms.Button();
             this.btnGPSData = new System.Windows.Forms.Button();
+            this.lblFromINOx = new System.Windows.Forms.Label();
+            this.lblFromINOy = new System.Windows.Forms.Label();
+            this.lblFromINOz = new System.Windows.Forms.Label();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -1089,6 +1092,48 @@ namespace AgIO
             this.btnGPSData.UseVisualStyleBackColor = false;
             this.btnGPSData.Click += new System.EventHandler(this.btnGPSData_Click);
             // 
+            // lblFromINOx
+            // 
+            this.lblFromINOx.AutoSize = true;
+            this.lblFromINOx.BackColor = System.Drawing.Color.Transparent;
+            this.lblFromINOx.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFromINOx.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblFromINOx.Location = new System.Drawing.Point(323, 69);
+            this.lblFromINOx.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblFromINOx.Name = "lblFromINOx";
+            this.lblFromINOx.Size = new System.Drawing.Size(26, 18);
+            this.lblFromINOx.TabIndex = 530;
+            this.lblFromINOx.Text = "---";
+            this.lblFromINOx.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lblFromINOy
+            // 
+            this.lblFromINOy.AutoSize = true;
+            this.lblFromINOy.BackColor = System.Drawing.Color.Transparent;
+            this.lblFromINOy.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFromINOy.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblFromINOy.Location = new System.Drawing.Point(323, 93);
+            this.lblFromINOy.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblFromINOy.Name = "lblFromINOy";
+            this.lblFromINOy.Size = new System.Drawing.Size(26, 18);
+            this.lblFromINOy.TabIndex = 531;
+            this.lblFromINOy.Text = "---";
+            this.lblFromINOy.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lblFromINOz
+            // 
+            this.lblFromINOz.AutoSize = true;
+            this.lblFromINOz.BackColor = System.Drawing.Color.Transparent;
+            this.lblFromINOz.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFromINOz.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblFromINOz.Location = new System.Drawing.Point(323, 116);
+            this.lblFromINOz.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblFromINOz.Name = "lblFromINOz";
+            this.lblFromINOz.Size = new System.Drawing.Size(26, 18);
+            this.lblFromINOz.TabIndex = 532;
+            this.lblFromINOz.Text = "---";
+            this.lblFromINOz.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // FormLoop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
@@ -1097,6 +1142,9 @@ namespace AgIO
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(734, 486);
             this.ControlBox = false;
+            this.Controls.Add(this.lblFromINOz);
+            this.Controls.Add(this.lblFromINOy);
+            this.Controls.Add(this.lblFromINOx);
             this.Controls.Add(this.btnMinimizeMainForm);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.lblPingMachine);
@@ -1244,6 +1292,9 @@ namespace AgIO
         private ToolStripMenuItem toolStripLogViewer;
         private ToolStripMenuItem toolStripAgDiag;
         private ToolStripMenuItem toolStripSettings;
+        private Label lblFromINOx;
+        private Label lblFromINOy;
+        private Label lblFromINOz;
     }
 }
 
