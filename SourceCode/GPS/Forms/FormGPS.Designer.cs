@@ -2866,6 +2866,36 @@ namespace AgOpenGPS
             this.lblHardwareMessage.Visible = false;
             this.lblHardwareMessage.Click += new System.EventHandler(this.lblHardwareMessage_Click);
             // 
+            // btnSpeedDn
+            // 
+            this.btnSpeedDn.BackColor = System.Drawing.Color.Transparent;
+            this.btnSpeedDn.BackgroundImage = global::AgOpenGPS.Properties.Resources.DnArrow64;
+            this.btnSpeedDn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSpeedDn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnSpeedDn.FlatAppearance.BorderSize = 0;
+            this.btnSpeedDn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSpeedDn.Location = new System.Drawing.Point(333, 4);
+            this.btnSpeedDn.Name = "btnSpeedDn";
+            this.btnSpeedDn.Size = new System.Drawing.Size(71, 34);
+            this.btnSpeedDn.TabIndex = 533;
+            this.btnSpeedDn.UseVisualStyleBackColor = false;
+            this.btnSpeedDn.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnSpeedDn_MouseDown);
+            // 
+            // btnSimSpeedUp
+            // 
+            this.btnSimSpeedUp.BackColor = System.Drawing.Color.Transparent;
+            this.btnSimSpeedUp.BackgroundImage = global::AgOpenGPS.Properties.Resources.UpArrow64;
+            this.btnSimSpeedUp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSimSpeedUp.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnSimSpeedUp.FlatAppearance.BorderSize = 0;
+            this.btnSimSpeedUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSimSpeedUp.Location = new System.Drawing.Point(468, 4);
+            this.btnSimSpeedUp.Name = "btnSimSpeedUp";
+            this.btnSimSpeedUp.Size = new System.Drawing.Size(71, 34);
+            this.btnSimSpeedUp.TabIndex = 532;
+            this.btnSimSpeedUp.UseVisualStyleBackColor = false;
+            this.btnSimSpeedUp.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnSimSpeedUp_MouseDown);
+            // 
             // FormGPS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);

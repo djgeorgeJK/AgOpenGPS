@@ -351,6 +351,8 @@ namespace AgIO
                 lblFromINOx.Text = "Hd:" + imuHeadingData;
                 lblFromINOy.Text = "Pi:" + imuPitchData;
                 lblFromINOz.Text = "Rl:" + imuRollData;
+                                
+                label_FW.Text = scanReply.machineFW;
             }
 
             //do all the NTRIP routines

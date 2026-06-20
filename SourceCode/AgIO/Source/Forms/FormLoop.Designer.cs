@@ -109,6 +109,8 @@ namespace AgIO
             this.lblFromINOx = new System.Windows.Forms.Label();
             this.lblFromINOy = new System.Windows.Forms.Label();
             this.lblFromINOz = new System.Windows.Forms.Label();
+            this.labelFW = new System.Windows.Forms.Label();
+            this.label_FW = new System.Windows.Forms.Label();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -1134,6 +1136,34 @@ namespace AgIO
             this.lblFromINOz.Text = "---";
             this.lblFromINOz.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // labelFW
+            // 
+            this.labelFW.AutoSize = true;
+            this.labelFW.BackColor = System.Drawing.Color.Transparent;
+            this.labelFW.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelFW.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelFW.Location = new System.Drawing.Point(254, 44);
+            this.labelFW.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelFW.Name = "labelFW";
+            this.labelFW.Size = new System.Drawing.Size(37, 18);
+            this.labelFW.TabIndex = 533;
+            this.labelFW.Text = "FW:";
+            this.labelFW.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label_FW
+            // 
+            this.label_FW.AutoSize = true;
+            this.label_FW.BackColor = System.Drawing.Color.Transparent;
+            this.label_FW.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_FW.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label_FW.Location = new System.Drawing.Point(295, 44);
+            this.label_FW.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_FW.Name = "label_FW";
+            this.label_FW.Size = new System.Drawing.Size(38, 18);
+            this.label_FW.TabIndex = 534;
+            this.label_FW.Text = "-----";
+            this.label_FW.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // FormLoop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
@@ -1142,6 +1172,8 @@ namespace AgIO
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(734, 486);
             this.ControlBox = false;
+            this.Controls.Add(this.label_FW);
+            this.Controls.Add(this.labelFW);
             this.Controls.Add(this.lblFromINOz);
             this.Controls.Add(this.lblFromINOy);
             this.Controls.Add(this.lblFromINOx);
@@ -1295,6 +1327,8 @@ namespace AgIO
         private Label lblFromINOx;
         private Label lblFromINOy;
         private Label lblFromINOz;
+        private Label labelFW;
+        private Label label_FW;
     }
 }
 

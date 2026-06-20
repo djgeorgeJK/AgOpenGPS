@@ -10,7 +10,7 @@ using AgLibrary.Logging;
 namespace AgIO
 {
     public class CTraffic
-    {     
+    {
         public int cntrGPSIn = 0;
         public int cntrGPSInBytes = 0;
         public int cntrGPSOut = 0;
@@ -25,6 +25,8 @@ namespace AgIO
         public string GPS_IP =    "";
         public string IMU_IP =    "";
         public string subnetStr = "";
+        
+        public string machineFW = "";        
 
         public byte[] subnet = { 0, 0, 0 };
 
@@ -377,6 +379,7 @@ namespace AgIO
                             lbl1To8.Text = Convert.ToString(data[5], 2).PadLeft(8, '0');
                             lbl9To16.Text = Convert.ToString(data[6], 2).PadLeft(8, '0');
                         }
+                        scanReply.machineFW = data[7].ToString() + "." + data[8].ToString() + "." + data[9].ToString();
                     }
 
                     else if (data[3] == 121 && data.Length == 11)
