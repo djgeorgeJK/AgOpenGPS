@@ -11,7 +11,7 @@ namespace AgIO
     {
         private static Mutex _mutex;
 
-        public static readonly string Version = Assembly.GetEntryAssembly().GetName().Version.ToString(3); // Major.Minor.Patch
+        public static readonly string Version = Assembly.GetEntryAssembly().GetName().Version.ToString(4); // Major.Minor.Patch.Build
 
         /// <summary>
         /// The main entry point for the application.
