@@ -25,8 +25,11 @@ namespace AgIO
         public string GPS_IP =    "";
         public string IMU_IP =    "";
         public string subnetStr = "";
-        
-        public string machineFW = "";        
+
+        public string steerFW = "";
+        public string machineFW = "";
+        public string IMU_FW = "";
+        public string GPS_FW = "";
 
         public byte[] subnet = { 0, 0, 0 };
 
@@ -44,7 +47,7 @@ namespace AgIO
         // UDP Socket
         public Socket UDPSocket;
         private EndPoint endPointUDP = new IPEndPoint(IPAddress.Any, 0);
-        
+
         public bool isUDPNetworkConnected;
 
         //2 endpoints for local and 2 udp
@@ -54,7 +57,7 @@ namespace AgIO
             Properties.Settings.Default.eth_loopTwo.ToString() + "." +
             Properties.Settings.Default.eth_loopThree.ToString() + "." +
             Properties.Settings.Default.eth_loopFour.ToString()), 15555);
-        
+
         public IPEndPoint epModule = new IPEndPoint(IPAddress.Parse(
                 Properties.Settings.Default.etIP_SubnetOne.ToString() + "." +
                 Properties.Settings.Default.etIP_SubnetTwo.ToString() + "." +
@@ -70,7 +73,7 @@ namespace AgIO
 
         //scan results placed here
         public string scanReturn = "Scanning...";
-        
+
         // Data stream
         private byte[] buffer = new byte[1024];
 
@@ -135,13 +138,13 @@ namespace AgIO
         }
 
         private void LoadLoopback()
-        { 
+        {
             try //loopback
             {
                 loopBackSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
                 loopBackSocket.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.Broadcast, true);
                 loopBackSocket.Bind(new IPEndPoint(IPAddress.Loopback, 17777));
-                loopBackSocket.BeginReceiveFrom(buffer, 0, buffer.Length, SocketFlags.None, ref endPointLoopBack, 
+                loopBackSocket.BeginReceiveFrom(buffer, 0, buffer.Length, SocketFlags.None, ref endPointLoopBack,
                     new AsyncCallback(ReceiveDataLoopAsync), null);
                 Log.EventWriter("Loopback is Connected: " + IPAddress.Loopback.ToString() + ":17777");
 
@@ -242,7 +245,7 @@ namespace AgIO
                             break;
                         }
                 }
-            }                            
+            }
         }
 
         private void ReceiveDataLoopAsync(IAsyncResult asyncResult)
@@ -256,7 +259,7 @@ namespace AgIO
                 Array.Copy(buffer, localMsg, msgLen);
 
                 // Listen for more connections again...
-                loopBackSocket.BeginReceiveFrom(buffer, 0, buffer.Length, SocketFlags.None, ref endPointLoopBack, 
+                loopBackSocket.BeginReceiveFrom(buffer, 0, buffer.Length, SocketFlags.None, ref endPointLoopBack,
                     new AsyncCallback(ReceiveDataLoopAsync), null);
 
                 BeginInvoke((MethodInvoker)(() => ReceiveFromLoopBack(localMsg)));
@@ -331,13 +334,13 @@ namespace AgIO
                 Array.Copy(buffer, localMsg, msgLen);
 
                 // Listen for more connections again...
-                UDPSocket.BeginReceiveFrom(buffer, 0, buffer.Length, SocketFlags.None, ref endPointUDP, 
+                UDPSocket.BeginReceiveFrom(buffer, 0, buffer.Length, SocketFlags.None, ref endPointUDP,
                     new AsyncCallback(ReceiveDataUDPAsync), null);
 
                 BeginInvoke((MethodInvoker)(() => ReceiveFromUDP(localMsg)));
 
             }
-            catch 
+            catch
             {
             }
         }
@@ -379,7 +382,6 @@ namespace AgIO
                             lbl1To8.Text = Convert.ToString(data[5], 2).PadLeft(8, '0');
                             lbl9To16.Text = Convert.ToString(data[6], 2).PadLeft(8, '0');
                         }
-                        scanReply.machineFW = data[7].ToString() + "." + data[8].ToString() + "." + data[9].ToString();
                     }
 
                     else if (data[3] == 121 && data.Length == 11)
